@@ -1,0 +1,7 @@
+forEach() ka return undefined hona JavaScript ka official behavior hai.
+Bonus: Use find() if only one student needed;
+Tum find() ka use kar rahe ho, lekin find() sirf pehla match return karta hai;
+
+
+find() :- First match only (single item)
+filter() :-	All matches (as an array)
