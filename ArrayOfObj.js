@@ -136,23 +136,23 @@ let students = [
 // console.log(JSON.stringify(students, null, 2))
 
 
-const produce = [
-    { id: 1, name: "Carrot", category: "Vegetable" },
-    { id: 2, name: "Broccoli", category: "Vegetable" },
-    { id: 3, name: "Potato", category: "Vegetable" },
-    { id: 4, name: "Spinach", category: "Vegetable" },
-    { id: 5, name: "Cabbage", category: "Vegetable" },
-    { id: 6, name: "Sweet Potato", category: "Vegetable" },
-    { id: 7, name: "Apple", category: "Fruit" },
-    { id: 8, name: "Banana", category: "Fruit" },
-    { id: 9, name: "Strawberry", category: "Fruit" },
-    { id: 10, name: "Orange", category: "Fruit" },
-    { id: 11, name: "Lettuce", category: "Vegetable" }
-];
+// const produce = [
+//     { id: 1, name: "Carrot", category: "Vegetable" },
+//     { id: 2, name: "Broccoli", category: "Vegetable" },
+//     { id: 3, name: "Potato", category: "Vegetable" },
+//     { id: 4, name: "Spinach", category: "Vegetable" },
+//     { id: 5, name: "Cabbage", category: "Vegetable" },
+//     { id: 6, name: "Sweet Potato", category: "Vegetable" },
+//     { id: 7, name: "Apple", category: "Fruit" },
+//     { id: 8, name: "Banana", category: "Fruit" },
+//     { id: 9, name: "Strawberry", category: "Fruit" },
+//     { id: 10, name: "Orange", category: "Fruit" },
+//     { id: 11, name: "Lettuce", category: "Vegetable" }
+// ];
 
   
-let Vegetables = produce.filter(item => item.category === "Vegetable");
-let Fruits = produce.filter(item => item.category === "Fruit");
+// let Vegetables = produce.filter(item => item.category === "Vegetable");
+// let Fruits = produce.filter(item => item.category === "Fruit");
   
-console.log({ Vegetables, Fruits });
+// console.log({ Vegetables, Fruits });
   

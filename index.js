@@ -1,5 +1,21 @@
 // This is the javascript interview question :-
 
+// function flattenArray(arr, result = []) {
+//   for (let i = 0; i < arr.length; i++) {
+//     if (typeof arr[i] === 'object') {   // check if element is array
+//       flattenArray(arr[i], result);     // recursive call
+//     } else {
+//       result[result.length] = arr[i];   // push manually without push()
+//     }
+//   }
+//   return result;
+// }
+
+// let arr = [1, 2, 3, [4, 5, [7, 8, 1, 2]], 2, 3, 4, [6, 7, [8,9]]];
+// let output = flattenArray(arr);
+// console.log(output);
+
+
 //let arr = [ 1, 3, 4, 5, 6, 7, 8, 10 ];
 //console.log(arr[arr.length - 2]);
 
@@ -12,6 +28,18 @@
 // }
 // console.log(reverse);
 
+// Find the index of the w in the string
+//----------------------------------------
+// let index = 0;
+
+// for (let i = 0; i < reverse.length; i++) {
+//   if (reverse[i] === 'w') {
+//     index = i;
+//     break;
+//   }
+// }
+
+// console.log(index); 
 
 // find the number or string from the array
 //--------------------------------------------------------------------
@@ -173,7 +201,6 @@
 //     for (let i = 0; i < arr.length - 1; i++) {
 //         for (let j = 0; j < arr.length - i - 1; j++) {
 //             if (arr[j] > arr[j + 1]) {
-//                 // Swap arr[j] and arr[j + 1]
 //                 let temp = arr[j];
 //                 arr[j] = arr[j + 1];
 //                 arr[j + 1] = temp;
